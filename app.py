@@ -154,4 +154,4 @@ if generate_prompt_for_gpt:
         
         response_clean = clean_response(response=response,
                                         matching_string="""\"Cover Letter\":\"""")
-        st.markdown(response_clean)
+        st.text(response_clean)
